@@ -1,0 +1,11 @@
+{
+	"dbConnection":{
+		"address":"192.168.56.102",
+		"name":"minidrive",
+		"user":"accesodatos",
+		"password":"abc123."
+	},
+	"app":{
+		"directory":"D:/MisDocumentos/Modulos FP VDF/DAM/2019-2020/MP0486 Aceso a Datos/Tarefa 5/minidrive"
+		}
+}
