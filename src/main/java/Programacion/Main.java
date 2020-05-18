@@ -322,7 +322,7 @@ public class Main  {
                     sql2= "select contido from arquivos where oid=?;";
                     PreparedStatement ps2 = conn.prepareStatement(sql2);
                     ps2.setLong(1, rs.getLong(1));
-                    ResultSet rs2 = ps2.executeQuery(sql2);
+                    ResultSet rs2 = ps2.executeQuery();
                     
                     // gravamos o no arquivo no disco
                     while (rs2.next()) {
